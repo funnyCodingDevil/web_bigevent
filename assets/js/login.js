@@ -49,7 +49,7 @@ $(function () {
         })
     })
     // 登录
-    $('.loginForm').on('submit', function (e) {
+    $('#loginForm').on('submit', function (e) {
         e.preventDefault()
         // 发请求
         $.ajax({
